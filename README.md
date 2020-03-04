@@ -15,3 +15,4 @@ Trying to update it daily. If it is helpful please press a star.
 
 |  #  | Question | Solution | Difficulty |
 |:---:|:--------:|:--------:|:----------:|
+| 1 | [Two sums](https://leetcode.com/problems/two-sum/) | [Solution.php]() | Easy |
