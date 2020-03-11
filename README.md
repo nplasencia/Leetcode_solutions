@@ -16,4 +16,4 @@ Trying to update it daily. If it is helpful please press a star.
 |  #  | Question | Solution | Difficulty |
 |:---:|:--------:|:--------:|:----------:|
 | 1 | [Two sums](https://leetcode.com/problems/two-sum/) | [Solution](https://github.com/nplasencia/Leetcode_solutions/tree/master/Problems/1.%20Two%20Sum/Solution.md) | Easy |
-| 1 | [Two sums](https://leetcode.com/problems/two-sum/) | [Solution](https://github.com/nplasencia/Leetcode_solutions/tree/master/Problems/1.%20Two%20Sum/Solution.md) | Easy |
+| 2 | [Add two numbers](https://leetcode.com/problems/add-two-numbers/) | [Solution](https://github.com/nplasencia/Leetcode_solutions/tree/master/Problems/2.%20Add%20Two%20Numbers/Solution.md) | Medium |
