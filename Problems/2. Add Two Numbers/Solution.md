@@ -1,7 +1,7 @@
-# Two Sum
+# Two Sum
 
 
-## Best Solution
+## Best Solution (12ms)
 
 ```php
 function addTwoNumbers($l1, $l2) {
