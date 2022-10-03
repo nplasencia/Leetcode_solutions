@@ -19,6 +19,7 @@ Trying to update it daily. If it is helpful please press a star.
 |  2 |                                [Add two numbers](https://leetcode.com/problems/add-two-numbers/)                                |     [Solution](src/AddTwoNumbers/Solution.md)      |   Medium   |
 |  3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) |    [Solution](src/LongestSubstring/Solution.md)    |   Medium   |
 |  4 |          [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)           | [Solution](src/FindMedianSortedArrays/Solution.md) |    Hard    |
+|  5 |          [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)           | [Solution](src/LongestPalindromicSubstring/Solution.md) |    Medium    |
 
 ### Some conclusions
 
