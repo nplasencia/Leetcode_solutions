@@ -11,35 +11,30 @@ class RemoveNthNodeFromEndOfList
 			return null;
 		}
 
-		$numberOfNodes = $this->countListNodes($head);
-		if ($n === $numberOfNodes) {
-			$nodeToRemove = $head;
-			$head = $nodeToRemove->next;
-			$nodeToRemove->next = null;
-			return $head;
-		}
-		$originalHead = $head;
-
-		for ($i = 0; $i < $numberOfNodes; $i++) {
-			if ($i === $numberOfNodes - $n - 1) {
-				$this->removeNextNode($head);
-				break;
-			}
-			$head = $head->next;
+		$nodePosition = 0;
+		$node = $this->recursiveRemoveNthFromEnd($head, $n, $nodePosition);
+		if ($nodePosition + 1 === $n ) {
+			$node = $node->next;
 		}
 
-		return $originalHead;
+		return $node;
 	}
 
-	private function countListNodes(ListNode $head): int
+	private function recursiveRemoveNthFromEnd(ListNode $node, int $n, int &$nodePosition): ListNode
 	{
-		$count = 1;
-		while (!is_null($head->next)) {
-			$count++;
-			$head = $head->next;
+		if (is_null($node->next)) {
+			return $node;
 		}
 
-		return $count;
+		$this->recursiveRemoveNthFromEnd($node->next, $n, $nodePosition);
+
+		$nodePosition++;
+		if ($nodePosition === $n) {
+			$nodePosition = -30;
+			$this->removeNextNode($node);
+		}
+
+		return $node;
 	}
 
 	private function removeNextNode(ListNode $head): void

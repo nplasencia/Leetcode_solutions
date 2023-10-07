@@ -31,6 +31,7 @@ final class RemoveNthNodeFromEndListTest extends TestCase
 	public function dataProvider(): array
 	{
 		return [
+			[$this->generateLinkedListByArray([1, 2, 3, 4, 5]), 1, $this->generateLinkedListByArray([1, 2, 3, 4])],
 			[$this->generateLinkedListByArray([1, 2, 3, 4, 5]), 2, $this->generateLinkedListByArray([1, 2, 3, 5])],
 			[$this->generateLinkedListByArray([1, 2, 3, 4, 5]), 5, $this->generateLinkedListByArray([2, 3, 4, 5])],
 			[$this->generateLinkedListByArray([1]), 1, $this->generateLinkedListByArray([])],
